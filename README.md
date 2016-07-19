@@ -8,10 +8,10 @@
 
 2）在本地MYSQL数据库上使用test数据库
 
-2）在test库上建立如下表，因为有事务处理，注意不能设置为MyISAM
+3）在test库上建立如下表，因为有事务处理，注意不能设置为MyISAM
 CREATE TABLE `account` (
 	`acctid` INT(11) DEFAULT NULL COMMENT '账户ID',
 	`money` INT(11) DEFAULT NULL COMMENT '余额'
 ) ENGINE = INNODB DEFAULT CHARSET = utf8 
 
-3）需要在执行控制台上进行三项参数设置：转出账号ID，转出账号ID，转出金额。
+4）需要在执行控制台上进行三项参数设置：转出账号ID，转出账号ID，转出金额。
